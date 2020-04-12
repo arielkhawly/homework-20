@@ -11,17 +11,17 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route absolute path="/">
+        <Route absloute path ='/' exact component={Home}>
           <Header />
           <Home />
           <Footer />
         </Route>
-        <Route absolute path="/About">
+        <Route absolute path='/about' exact component={About}>
           <Header />
           <About />
           <Footer />
          </Route>
-        <Route absolute path="/Projects">
+        <Route absolute path="/Projects" exact component={Projects}>
           <Header />
           <Projects />
           <Footer />
