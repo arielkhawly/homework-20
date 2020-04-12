@@ -1,8 +1,9 @@
 import React from "react";
+import './assets/Footer.css'
 
 function Footer() {
     return (
-        <footer>
+        <footer className='footer'>
             <p>Made by: Ariel Khawly</p>
             <p>Contact information: <a href="mailto:akhawly1@gmail.com">
                 akhawly1@gmail.com</a>.</p>
