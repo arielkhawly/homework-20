@@ -4,8 +4,10 @@ function About() {
     return (
         <Fragment>
             <h2>ABOUT ME</h2>
-            <p>Here is my Linkedin: </p> 
-            <p>Here is my Github: </p>
+            <article>
+            <a title='linkedin' target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/gabrielle-ariel-khawly-61a165146/">Linkedin</a>
+            </article>
+            <a title='github' target='_blank' rel='noopener noreferrer' href='https://github.com/arielkhawly'>GitHub</a>
         </Fragment>
     )
 }
