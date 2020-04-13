@@ -5,9 +5,9 @@ function Projects() {
     return (
         <article>
             <div>
-              <img className="project" src={require("../components/assets/images/date.png")}></img>
-              <img className='project' src={require("../components/assets/images/boxing.png")}></img>
-              <img className='project' src={require("../components/assets/images/tracker.png")}></img>
+              <img alt='date' className="project" src={require("../components/assets/images/date.png")}></img>
+              <img alt='boxing' className='project' src={require("../components/assets/images/boxing.png")}></img>
+              <img alt='tracker' className='project' src={require("../components/assets/images/tracker.png")}></img>
             </div>
             <div>
             <a title='project 1' target='_blank' rel="noopener noreferrer" href="https://arielkhawly.github.io/project-1/"> Last Minute Date Generator </a>
